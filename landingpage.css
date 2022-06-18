@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Poppins:wght@600&display=swap');
+
+
+
+
+
+
+body, h2, p{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: hsl(321, 100%, 93%);
+    background-image: url(bg-hero-desktop.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "open sans";
+    width: auto;
+}
+
+
+@media only screen and (max-width: 992px){
+.header img{
+    width: 100%;
+
+    }
+
+main {
+         display:block;
+    }
+        main img{ 
+        width: 100% !important
+    }
+    .content{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .content h2{
+        font-size: 20px;
+    }
+    .box {
+        width: 100%;
+        text-align: center;
+    }
+    .box h2{
+        font-size: 20px;
+    }
+    
+    .content button {
+        width: 80%;
+    }
+    
+    .box button {
+        width: 80%;
+    }
+.footer {
+        float: none;
+        text-align: center;    }
+
+}
+header img{
+    width: 170px;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+header{
+    display: flex;
+}
+main{
+    display: flex;
+    margin-top: 4em;
+    justify-content: space-between;
+}
+.mck{
+    width: 40%;
+    flex-basis: 55%;
+
+}
+.content h2{
+    font-size: 40px;
+    font-family: "poppins";
+
+}
+.content{
+    flex-basis: 40%;
+    margin: 6em auto;
+    width: 30%;
+}
+.content p{
+    padding: 2em 0em;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: "open sans";
+}
+.content button{
+    padding: 14px 40px;
+    border-radius: 60px;
+    color: white;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    font-family: "open sans";
+}
+.content button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.try{
+    border-radius: 60px;
+    color: black;
+    background-color: white;
+    border-radius: 60px;
+    border: none;
+    padding: 14px 60px;
+    text-align: center;
+    margin-left: 900px;
+    cursor: pointer;
+    margin-top: 1em;
+    font-family: "open sans";
+}
+.try:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.container{
+    display: grid;
+    row-gap: 90px;
+    background-color: white;
+    background-size: cover;
+    margin-top: 6em;
+    width: 100%;
+    margin-bottom: 8em;
+    align-items: center;
+    
+}
+
+.item1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.item2{
+        display: flex;
+        justify-content: space-between;
+    }
+.item3{
+    display: flex;
+    justify-content: space-between;
+}
+.grow{
+    width: 40%;
+    flex-basis: 30%;
+    padding: 4em;
+
+}
+.flow{
+    width: 40%;
+    flex-basis: 30%;
+    padding: 4em;
+}
+.your{
+    width: 40%;
+    flex-basis: 30%;
+    padding: 4em;
+}
+
+.gt h2{
+    font-size: 30px;
+    font-family: "poppins";
+
+}
+.gt{
+    flex-basis: 40%;
+    margin: 12em auto;
+    width: 30%;
+}
+.gt p{
+    padding: 2em 0em;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: "open sans"
+}
+.fc h2{
+    font-size: 30px;
+    font-family: "poppins";
+
+}
+.fc{
+    flex-basis: 40%;
+    margin: 6em auto;
+    width: 30%;
+}
+.fc p{
+    padding: 2em 0em;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: "open sans"
+}
+.yu h2{
+    font-size: 30px;
+    font-family: "poppins";
+
+}
+.yu{
+    flex-basis: 40%;
+    margin: 6em auto;
+    width: 30%;
+}
+.yu p{
+    padding: 2em 0em;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: "open sans"
+}
+footer{
+    width: auto;
+    height: auto;
+    background-color: rgb(2, 2, 75);
+    color: white;
+    padding: 4em;
+}
+
+.icons{
+    display: grid;
+    row-gap: 2em;
+    column-gap: 1em;
+    margin-top: 6em;
+}
+.loc{
+    width: 15px;
+}
+.phon{
+    width: 15px;
+}
+.ema{
+    width: 15px;
+}
+.log{
+    color: white;
+    width: 18%;
+    margin-top: 7em;
+}
+.larg{
+    display: flex;
+    font-size: 15px;
+    column-gap: 2em;
+}
+.larg p{
+    text-align: justify;
+}
+.lub{
+    display: flex;
+    column-gap: 2em;
+}
+.kit{
+    display: flex;
+    column-gap: 2em;
+}
+.box{
+    font-family: "poppins";
+    box-shadow:1px 1px 1px 1px rgb(83, 81, 81);
+    height:100px ;
+    width: 250px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 70px 200px;
+    margin-left: 22em;
+    background-color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.box button{
+        padding: 10px 100px;
+        border-radius: 60px;
+        color: white;
+        background-color: hsl(322, 100%, 66%);
+        border: none;
+        cursor: pointer;
+        text-align: center;
+        margin: 3em;
+        margin-right: 2em;
+        font-family: "open sans";
+}
+.box button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.face{
+    font-size: 30px;
+    float:right;
+    margin-top: -5em;
+    margin-right: 4em;
+}
+.twi{
+    font-size: 30px;
+    float: right;
+    margin-top: -5em;
+    margin-right: 2em;
+}
+.inst{
+    font-size: 30px;
+    float: right;
+    margin-top: -5em;
+}
+
+/* mobile screen sizes */
+@media screen  and (max-width: 600px){
+    header img {
+        width: 50%;
+    }
+}
+main {
+     display:block;
+}
+main img{ 
+    width: 100% !important
+}
+.content{
+    width: 100%;
+    text-align: center;
+}
+
+.content h2{
+    font-size: 20px;
+}
+.box {
+    width: 20%;
+    text-align: center;
+}
+.box h2{
+    font-size: 20px;
+}
+
+.content button {
+    width: 80%;
+}
+
+.box button {
+    width: 60%;
+}
+.footer {
+    float: none;
+    text-align: center;
+
+}
